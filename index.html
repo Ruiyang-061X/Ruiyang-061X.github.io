@@ -7,7 +7,7 @@
 
     <meta name="author" content="Ruiyang Zhang">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/icon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon/Head_Picture.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
   </head>
@@ -23,21 +23,22 @@
                   Ruiyang Zhang
                 </p>
                 <p>
-                  I am an first-year PhD student at <a href="https://www.um.edu.mo/">University of Macau</a>, working with <a href="https://www.zdzheng.xyz/">Prof. Zhedong Zheng</a>. Previously, I obtained bachelor degree of computer science at <a href="https://www.fudan.edu.cn/main.htm">Fudan Unversity</a> in 2021.
+                  I am an first-year Ph.D. student at <a href="https://www.um.edu.mo/">University of Macau</a>, working with <a href="https://www.zdzheng.xyz/">Prof. Zhedong Zheng</a>. Previously, I obtained bachelor degree of computer science at <a href="https://www.fudan.edu.cn/main.htm">Fudan Unversity</a> in 2021.
                 </p>
                 <p>
-                  I am instereted in computer vision and related topics. I believe the ultimate goal of computer vision is to make machine see like human. Currenty, my reseach focuses on 3D perception and detection, especically under unsupervised settings.
+                  I am instereted in computer vision and related topics. I believe the ultimate goal of computer vision is to make machine see like human. Currenty, my reseach focuses on <b>Multi-modal Large Language Models (MLLMs)</b>, especically their inherent uncertainty.
                 </p>
                 <p style="text-align:center">
-                  <a href="mailto:ruiyang.061x@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="mailto:yc47931@um.edu.mo">Email</a> &nbsp;/&nbsp;
                   <a href="data/cv_english_academic.pdf">CV</a> &nbsp;/&nbsp;
                   <a href="data/zry-bio.txt">Bio</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?user=KnWCHh8AAAAJ">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/Ruiyang-061X/">Github</a>
+                  <a href="https://github.com/Ruiyang-061X/">Github</a> &nbsp;/&nbsp;
+                  <a href="https://x.com/Ruiyang_061X">X</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/icon.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/icon.jpg" class="hoverZoomLink"></a>
+                <a href="images/Head_Picture.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/Head_Picture.png" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -47,7 +48,9 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <h2>News</h2>
               <ul>
-                <li>🔥2024.7: Our work <a href="https://arxiv.org/abs/2407.08569">LiSe</a> is accepted by ECCV'24!</li>
+                <li>🔥🔥🔥 2024.12: Check out our latest work: <a href="https://vl-uncertainty.github.io/">VL-Uncertainty</a>, leveraging MLLM uncertainty for hallucination detection!</li>
+                <li>🔥🔥🔥 2024.12: We release the first curated list of reseach on MLLM uncertainty: <a href="https://github.com/Ruiyang-061X/Awesome-MLLM-Uncertainty">Awesome-MLLM-Uncertainty</a>!</li>
+                <li>🔥 2024.7: Our work <a href="https://arxiv.org/abs/2407.08569">LiSe</a> is accepted by ECCV'24!</li>
                 <li>2023.6: Leave Meituan to seek my path into academic world.</li>
               </ul>
             </td>
@@ -66,6 +69,49 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="vluncertainty_stop()" onmouseover="vluncertainty_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='vluncertainty_image'><video  width=100% muted autoplay loop>
+                  <img src="images/3.png" width=100%>
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/3.png' width=100%>
+                </div>
+                <script type="text/javascript">
+                  function vluncertainty_start() {
+                    document.getElementById('vluncertainty_image').style.opacity = "1";
+                  }
+          
+                  function vluncertainty_stop() {
+                    document.getElementById('vluncertainty_image').style.opacity = "0";
+                  }
+                  vluncertainty_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2407.08569">
+                  <span class="papertitle">VL-Uncertainty: Detecting Hallucination in Large Vision-Language Model via Uncertainty Estimation</span>
+                </a>
+                <br>
+                <strong>Ruiyang Zhang</strong>,
+                <a href="https://huzhangcs.github.io/">Hu Zhang</a>,
+                <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
+                <br>
+                <em>Preprint</em>, 2024
+                <br>
+                <a href="https://vl-uncertainty.github.io/">[Website]</a>
+                /
+                <a href="https://arxiv.org/abs/2411.11919">[Paper]</a>
+                /
+                <a href="https://github.com/Ruiyang-061X/VL-Uncertainty">[Code]</a>
+                <p></p>
+                <p>
+                We leverage semantic-equivalent prompt perturbation for refined LVLM uncertainty estimation, thereby faciliating more accurate hallucination detection.
+                </p>
+              </td>
+            </tr>
 
             <tr onmouseout="ul3d_stop()" onmouseover="ul3d_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
@@ -93,7 +139,7 @@
                 </a>
                 <br>
                 <strong>Ruiyang Zhang</strong>,
-                Hu Zhang,
+                <a href="https://huzhangcs.github.io/">Hu Zhang</a>,
                 Hang Yu,
                 <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
                 <br>
@@ -135,7 +181,7 @@
                 </a>
                 <br>
                 <strong>Ruiyang Zhang</strong>,
-                Hu Zhang,
+                <a href="https://huzhangcs.github.io/">Hu Zhang</a>,
                 Hang Yu,
                 <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
                 <br>
@@ -167,42 +213,17 @@
           </tr>
         </tbody></table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <h2>Honors and Awards</h2>
-            <ul>
-              <li>2019: Second Prize of China Undergraduate Mathematical Contest in Modeling (CUMCM)</li>
-              <li>2018&2019: Third Class Scholarship for Outstanding Students, Fudan University</li>
-              <li>2016: Province First Price of Chinese Mathematical Olympiad (CMO)</li>
-              <li>2014&2015: First Price of National Olympiad in Informatics in Provinces (NOIP)</li>
-            </ul>
-          </td>
-        </tr>
-      </tbody></table>
-
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
         <td style="padding:20px;width:100%;vertical-align:middle">
           <h2>Education</h2>
           <ul>
-            <li>2017.09 - 2021.06: undergraduate student in School of Computer Science, Fudan University</li>
+            <li>2024.09 - Now: Ph.D. student in Faculty of Science and Technology, University of Macau</li>
+            <li>2017.09 - 2021.06: Undergraduate student in School of Computer Science, Fudan University</li>
           </ul>
         </td>
       </tr>
     </tbody></table>
-
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr>
-      <td style="padding:20px;width:100%;vertical-align:middle">
-        <h2>Interests</h2>
-        <ul>
-          <li>I enjoy playing table tennis🏓, a member of school team in my primary school hhh</li>
-          <li>Like walking around parks🏞️</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody></table>
 
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
@@ -222,6 +243,32 @@
     <h2>Teaching</h2>
     <ul>
       <li>University of Macau CISC3021: Multimedia Forensics and Security (TA)</li>
+    </ul>
+  </td>
+</tr>
+</tbody></table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+  <td style="padding:20px;width:100%;vertical-align:middle">
+    <h2>Honors and Awards</h2>
+    <ul>
+      <li>2019: Second Prize of China Undergraduate Mathematical Contest in Modeling (CUMCM)</li>
+      <li>2018&2019: Third Class Scholarship for Outstanding Students, Fudan University</li>
+      <li>2016: Province First Price of Chinese Mathematical Olympiad (CMO)</li>
+      <li>2014&2015: First Price of National Olympiad in Informatics in Provinces (NOIP)</li>
+    </ul>
+  </td>
+</tr>
+</tbody></table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+  <td style="padding:20px;width:100%;vertical-align:middle">
+    <h2>Interests</h2>
+    <ul>
+      <li>I enjoy playing table tennis🏓, a member of school team in my primary school hhh</li>
+      <li>Like walking around parks🏞️</li>
     </ul>
   </td>
 </tr>
