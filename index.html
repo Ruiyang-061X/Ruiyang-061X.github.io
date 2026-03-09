@@ -47,8 +47,9 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <h2>News</h2>
               <ul>
+                <li>🔥 2026.3: Check out our latest work: <a href="https://arxiv.org/abs/2603.02795">VSearcher</a>, training multi-turn tool use multimodal search agent in real-world web environment via reinforcement learning!</li>
                 <li>🔥 2026.1: Our work <a href="https://arxiv.org/abs/2601.02825">SketchThinker-R1</a> is accepted by ICLR'26!</li>
-                <li>🔥 2026.1: Check out our latest work: <a href="https://arxiv.org/abs/2601.02825">SketchThinker-R1</a>, incentivizing sketch-style reasoning in large multimodal models to improve reasoning efficiency!</li>
+                <li>🔥 2026.1: Check out our work: <a href="https://arxiv.org/abs/2601.02825">SketchThinker-R1</a>, incentivizing sketch-style reasoning in large multimodal models to improve reasoning efficiency!</li>
                 <li>🔥 2025.6: Our work <a href="https://arxiv.org/abs/2408.00619">UA3D</a> is accepted by ICCV'25!</li>
                 <li>🔥 2025.3: Check out our work: <a href="https://uncertainty-o.github.io/">Uncertainty-o</a>, unveiling uncertainty in Large Multimodal Models (LMMs) in a model-agnostic manner, supporting both Large Comprehension Models and Large Generation Models!</li>
                 <li>🔥 2024.12: Check out our <a href="https://vl-uncertainty.github.io/">VL-Uncertainty</a>, leveraging MLLM uncertainty for hallucination detection!</li>
@@ -72,6 +73,50 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="vsearcher_stop()" onmouseover="vsearcher_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='vsearcher_image'><video  width=100% muted autoplay loop>
+                  <img src="images/6.png" width=100%>
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/6.png' width=100%>
+                </div>
+                <script type="text/javascript">
+                  function vsearcher_start() {
+                    document.getElementById('vsearcher_image').style.opacity = "1";
+                  }
+
+                  function vsearcher_stop() {
+                    document.getElementById('vsearcher_image').style.opacity = "0";
+                  }
+                  vsearcher_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2601.02825">
+                  <span class="papertitle">VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning
+                  </span>
+                </a>
+                <br>
+                <strong>Ruiyang Zhang</strong>,
+                Qianguo Sun,
+                Chao Song,
+                <a href="https://yiyanqi.github.io/">Yiyan Qi</a>
+                <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
+                <br>
+                <em>Preprint</em>, 2026
+                <br>
+                <a href="https://arxiv.org/abs/2603.02795">[Paper]</a>
+                /
+                <a href="https://github.com/Ruiyang-061X/VSearcher">[Code]</a>
+                <p></p>
+                <p>
+                (1) Build the RL infrastructure required to develop multi-turn tool-using multimodal search agent, including tool implementation, caching mechanism, and RL framework adaptation. (2) Build long-horizon, multi-turn multimodal search agent in real-world web environment via reinforcement learning. Propose a systematic post-training framework for multimodal search agents, including Iterative Injection-based Data Synthesis, Rejection Sampling Fine-tuning, and RL.
+                </p>
+              </td>
+            </tr>
 
             <tr onmouseout="sketchthinkerr1_stop()" onmouseover="sketchthinkerr1_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
@@ -324,6 +369,8 @@
               <em>Shenzhen</em>, China
               <br>
               <strong>Topics:</strong> Developing long-horizon multimodal search agent via reinforcement learning (RL)
+              <br>
+              <strong>Project:</strong> <a href="https://arxiv.org/abs/2603.02795">VSearcher</a>
             </td>
           </tr>
 
