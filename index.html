@@ -23,7 +23,7 @@
                   Ruiyang Zhang
                 </p>
                 <p>
-                  I am an second-year Ph.D. student at <a href="https://www.um.edu.mo/">University of Macau</a>, working with <a href="https://www.zdzheng.xyz/">Prof. Zhedong Zheng</a>. Previously, I obtained bachelor degree of computer science at <a href="https://www.fudan.edu.cn/main.htm">Fudan Unversity</a> in 2021.
+                  I am a third-year Ph.D. student at <a href="https://www.um.edu.mo/">University of Macau</a>, working with <a href="https://www.zdzheng.xyz/">Prof. Zhedong Zheng</a>. Previously, I obtained bachelor degree of computer science at <a href="https://www.fudan.edu.cn/main.htm">Fudan Unversity</a> in 2021.
                 </p>
                 <p>
                   I am instereted in computer vision and related topics. I believe the ultimate goal of computer vision is to make machine see like human. Currenty, my reseach focuses on enhancing the <strong>reasoning</strong> and <strong>tool use capabilities</strong> of <strong>multimodal agents</strong> through reinforcement learning.
@@ -47,7 +47,10 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <h2>News</h2>
               <ul>
-                <li>🔥 2026.3: Check out our latest work: <a href="https://arxiv.org/abs/2603.02795">VSearcher</a>, training multi-turn tool use multimodal search agent in real-world web environment via reinforcement learning!</li>
+                <li>🔥🔥🔥 2026.10: Check out our latest work: <a href="https://arxiv.org/abs/2609.34378">Marathoner</a>, which provides a comprehensive receipt for building utlra-long-horizon ability into vanilla base model. Our agent is capable of continuously executing for 10+ hours and conducting 1000+ tool calls on some challenging tasks.</li>
+                <li>🔥 2026.9: Our work <a href="https://arxiv.org/abs/2603.02795">VSearcher</a> is accepted by NeurIPS'26</li>
+                <li>🔥 2026.8: Our work <a href="https://arxiv.org/abs/2506.07575">Uncertainty-o</a> is accepted by EMNLP'26</li>
+                <li>🔥 2026.3: Check out our work: <a href="https://arxiv.org/abs/2603.02795">VSearcher</a>, training multi-turn tool use multimodal search agent in real-world web environment via reinforcement learning!</li>
                 <li>🔥 2026.1: Our work <a href="https://arxiv.org/abs/2601.02825">SketchThinker-R1</a> is accepted by ICLR'26!</li>
                 <li>🔥 2026.1: Check out our work: <a href="https://arxiv.org/abs/2601.02825">SketchThinker-R1</a>, incentivizing sketch-style reasoning in large multimodal models to improve reasoning efficiency!</li>
                 <li>🔥 2025.6: Our work <a href="https://arxiv.org/abs/2408.00619">UA3D</a> is accepted by ICCV'25!</li>
@@ -73,6 +76,50 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="marathoner_stop()" onmouseover="marathoner_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='marathoner_image'><video  width=100% muted autoplay loop>
+                  <img src="images/7.png" width=100%>
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/7.png' width=100%>
+                </div>
+                <script type="text/javascript">
+                  function marathoner_start() {
+                    document.getElementById('marathoner_image').style.opacity = "1";
+                  }
+
+                  function marathoner_stop() {
+                    document.getElementById('marathoner_image').style.opacity = "0";
+                  }
+                  marathoner_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2609.34378">
+                  <span class="papertitle">Marathoner: Ultra-Long-Horizon Autonomous Intelligence
+                  </span>
+                </a>
+                <br>
+                <strong>Ruiyang Zhang</strong>,
+                Jinpeng Ou,
+                Yifan Xie,
+                Jingang Zhou,
+                Lirui Pan,
+                <a href="https://landyguo.github.io/">Qingpei Guo</a>,
+                <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
+                <br>
+                <em>Preprint</em>, 2026
+                <br>
+                <a href="https://arxiv.org/abs/2609.34378">[Paper]</a>
+                <p></p>
+                <p>
+                Propose a comprehensive post-training pipeline for constructing ultra-long-horizon execution ability into base model, including Ultra-Long-Horizon Task Synthesis, Rejection Sampling Finetuning, and Reinforcement Learning. For data synthesis, we also propose Multi-Task Chaining to produce even more challenging tasks. For RL, we also introduce Later Stage Bonus Reward, which explicitly rewards valuable operation during later stage of execution, facilitating more effective ultra-long-horizon ability.
+                </p>
+              </td>
+            </tr>
 
             <tr onmouseout="vsearcher_stop()" onmouseover="vsearcher_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
@@ -103,10 +150,10 @@
                 <strong>Ruiyang Zhang</strong>,
                 Qianguo Sun,
                 Chao Song,
-                <a href="https://yiyanqi.github.io/">Yiyan Qi</a>
+                <a href="https://yiyanqi.github.io/">Yiyan Qi</a>,
                 <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
                 <br>
-                <em>Preprint</em>, 2026
+                <em>NeurIPS</em>, 2026
                 <br>
                 <a href="https://arxiv.org/abs/2603.02795">[Paper]</a>
                 /
@@ -189,7 +236,7 @@
                 <a href="https://haofei.vip/">Fei Hao</a>,
                 <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
                 <br>
-                <em>Preprint</em>, 2025
+                <em>EMNLP</em>, 2026
                 <br>
                 <a href="https://uncertainty-o.github.io/">[Website]</a>
                 /
@@ -341,6 +388,39 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="ant_group_stop()" onmouseover="ant_group_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ant_group_image'><video  width=100% muted autoplay loop>
+                <img src="images/ant_group-logo.png" width=100%>
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/ant_group-logo.png' width=100%>
+              </div>
+              <script type="text/javascript">
+                function ant_group_start() {
+                  document.getElementById('ant_group_image').style.opacity = "1";
+                }
+
+                function ant_group_stop() {
+                  document.getElementById('ant_group_image').style.opacity = "0";
+                }
+                ant_group_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:top">
+              <strong>Research Intern @ Ant Group, Ling Team</strong>
+              <br>
+              2026.6 - 
+              <br>
+              <em>Beijing</em>, China
+              <br>
+              <strong>Topics:</strong> Exploring and developing general pipeline for constructing ultra-long-horizon ability
+              <br>
+              <strong>Project:</strong> <a href="https://arxiv.org/abs/2609.34378">Marathoner</a>
+            </td>
+          </tr>
+
           <tr onmouseout="idea_stop()" onmouseover="idea_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -364,7 +444,7 @@
             <td style="padding:20px;width:75%;vertical-align:top">
               <strong>Research Intern @ IDEA</strong>
               <br>
-              2025.10 -
+              2025.10 - 2026.3
               <br>
               <em>Shenzhen</em>, China
               <br>
