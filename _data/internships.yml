@@ -1,0 +1,40 @@
+# =====================================================================
+# Internships
+#
+# Rendered by _includes/internship.md, newest first. Styled the same
+# way as _data/publications.yml for visual consistency.
+#
+# Supported fields per entry:
+#   role        - position and host, e.g. "Research Intern @ IDEA" (required)
+#   period      - e.g. "2025.10 - Now"
+#   location    - e.g. "Shenzhen, China"
+#   description - one-line summary of the work/topic
+#   project     - label for the related project (optional)
+#   project_link- link for the related project (optional)
+#
+# To add a new internship, copy the template below, fill it in, and
+# place it at the top of the "main" list (newest first).
+#
+#   - role: ""
+#     period: ""
+#     location: ""
+#     description: ""
+#     project:
+#     project_link:
+# =====================================================================
+
+main:
+
+  - role: "Research Intern @ IDEA"
+    period: "2025.10 - Now"
+    location: "Shenzhen, China"
+    description: Developing a long-horizon multimodal search agent via reinforcement learning (RL).
+    project: "VSearcher"
+    project_link: https://arxiv.org/abs/2603.02795
+
+  - role: "Research Intern @ Shanghai AI Lab"
+    period: "2025.05 - 2025.09"
+    location: "Shanghai, China"
+    description: Leveraging RL to incentivize sketch-style reasoning in large multimodal models.
+    project: "SketchThinker-R1"
+    project_link: https://arxiv.org/abs/2601.02825

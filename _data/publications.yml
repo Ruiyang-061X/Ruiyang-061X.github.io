@@ -1,0 +1,67 @@
+# =====================================================================
+# Publications
+#
+# Rendered by _includes/publications.md, newest first.
+#
+# Supported fields per entry:
+#   title            - paper title (required)
+#   authors          - HTML string; wrap your own name in <strong>...</strong>
+#   conference_short - abbreviated venue + year only, e.g. "CVPR, 2025"
+#                       (use "Preprint, <year>" for unpublished work)
+#   pdf              - link to the paper (optional)
+#   code             - link to the code repository (optional)
+#   page             - link to a dedicated project page (optional)
+#
+# NOTE: BibTeX buttons and the red "status" tag (e.g. "Oral", "Early
+# Accept") used by the upstream theme are intentionally not rendered.
+# See _includes/publications.md for how to re-enable them.
+#
+# To add a new paper, copy the template below, fill it in, and place it
+# at the top of the "main" list (newest first).
+#
+#   - title: ""
+#     authors: ""
+#     conference_short: ""
+#     pdf:
+#     code:
+#     page:
+# =====================================================================
+
+main:
+
+  - title: "VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning"
+    authors: <strong>Ruiyang Zhang</strong>, Qianguo Sun, Chao Song, <a href="https://yiyanqi.github.io/">Yiyan Qi</a>, <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
+    conference_short: "Preprint, 2026"
+    pdf: https://arxiv.org/abs/2603.02795
+    code: https://github.com/Ruiyang-061X/VSearcher
+
+  - title: "SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models"
+    authors: <strong>Ruiyang Zhang*</strong>, <a href="https://scholar.google.com/citations?user=Ox6SxpoAAAAJ">Dongzhan Zhou*</a>, <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
+    conference_short: "ICLR, 2026"
+    pdf: https://arxiv.org/abs/2601.02825
+    code: https://github.com/Ruiyang-061X/SketchThinker-R1
+
+  - title: "Uncertainty-o: One Model-agnostic Framework for Unveiling Epistemic Uncertainty in Large Multimodal Models"
+    authors: <strong>Ruiyang Zhang</strong>, <a href="https://huzhangcs.github.io/">Hu Zhang</a>, <a href="https://haofei.vip/">Fei Hao</a>, <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
+    conference_short: "Preprint, 2025"
+    page: https://uncertainty-o.github.io/
+    code: https://github.com/Ruiyang-061X/Uncertainty-o
+
+  - title: "VL-Uncertainty: Detecting Hallucination in Large Vision-Language Model via Uncertainty Estimation"
+    authors: <strong>Ruiyang Zhang</strong>, <a href="https://huzhangcs.github.io/">Hu Zhang</a>, <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
+    conference_short: "Preprint, 2024"
+    pdf: https://arxiv.org/abs/2411.11919
+    page: https://vl-uncertainty.github.io/
+    code: https://github.com/Ruiyang-061X/VL-Uncertainty
+
+  - title: "Harnessing Uncertainty-aware Bounding Boxes for Unsupervised 3D Object Detection"
+    authors: <strong>Ruiyang Zhang</strong>, <a href="https://huzhangcs.github.io/">Hu Zhang</a>, Hang Yu, <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
+    conference_short: "ICCV, 2025"
+    pdf: https://arxiv.org/abs/2408.00619
+    code: https://github.com/Ruiyang-061X/UL3D
+
+  - title: "Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene"
+    authors: <strong>Ruiyang Zhang</strong>, <a href="https://huzhangcs.github.io/">Hu Zhang</a>, Hang Yu, <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
+    conference_short: "ECCV, 2024"
+    pdf: https://arxiv.org/abs/2407.08569
+    code: https://github.com/Ruiyang-061X/LiSe
