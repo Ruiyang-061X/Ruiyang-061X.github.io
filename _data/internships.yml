@@ -1,14 +1,17 @@
 # =====================================================================
 # Internships
 #
-# Rendered by _includes/internship.md, newest first. Styled the same
-# way as _data/publications.yml for visual consistency.
+# Rendered by _includes/internship.md, newest first. Card layout
+# mirrors Publications (image column + details column), but the image
+# is a plain company logo with no badge overlay.
 #
 # Supported fields per entry:
 #   role        - position and host, e.g. "Research Intern @ IDEA" (required)
-#   period      - e.g. "2025.10 - Now"
-#   location    - e.g. "Shenzhen, China"
-#   description - one-line summary of the work/topic
+#   period      - e.g. "2025.10 - 2026.3" or "2026.6 -" for ongoing
+#   city        - e.g. "Shenzhen"
+#   country     - e.g. "China"
+#   image       - company logo path (optional)
+#   topics      - one-line summary of the work/topic
 #   project     - label for the related project (optional)
 #   project_link- link for the related project (optional)
 #
@@ -17,8 +20,10 @@
 #
 #   - role: ""
 #     period: ""
-#     location: ""
-#     description: ""
+#     city: ""
+#     country: ""
+#     image:
+#     topics: ""
 #     project:
 #     project_link:
 # =====================================================================
@@ -26,22 +31,28 @@
 main:
 
   - role: "Research Intern @ Ant Group, Ling Team"
-    period: "2026.6 - Now"
-    location: "Beijing, China"
-    description: Exploring and developing a general pipeline for constructing ultra-long-horizon ability.
+    period: "2026.6 -"
+    city: "Beijing"
+    country: "China"
+    image: ./assets/img/internships/ant_group-logo.png
+    topics: Exploring and developing general pipeline for constructing ultra-long-horizon ability
     project: "Marathoner"
     project_link: https://arxiv.org/abs/2609.34378
 
   - role: "Research Intern @ IDEA"
     period: "2025.10 - 2026.3"
-    location: "Shenzhen, China"
-    description: Developing a long-horizon multimodal search agent via reinforcement learning (RL).
+    city: "Shenzhen"
+    country: "China"
+    image: ./assets/img/internships/idea-logo.png
+    topics: Developing long-horizon multimodal search agent via reinforcement learning (RL)
     project: "VSearcher"
     project_link: https://arxiv.org/abs/2603.02795
 
   - role: "Research Intern @ Shanghai AI Lab"
-    period: "2025.05 - 2025.09"
-    location: "Shanghai, China"
-    description: Leveraging RL to incentivize sketch-style reasoning in large multimodal models.
+    period: "2025.5 - 2025.9"
+    city: "Shanghai"
+    country: "China"
+    image: ./assets/img/internships/shanghaiailab-logo.png
+    topics: Leveraging RL to incentivize sketch-style reasoning in large multimodal models
     project: "SketchThinker-R1"
     project_link: https://arxiv.org/abs/2601.02825

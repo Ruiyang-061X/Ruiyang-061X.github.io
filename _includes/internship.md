@@ -1,7 +1,9 @@
 <!-- =====================================================================
      Internship
      Data lives in _data/internships.yml (newest entry first).
-     Styled the same way as the Publications section above.
+     Card layout mirrors Publications (image column + details column),
+     but the image is a plain company logo with no badge, and the
+     project is plain text rather than a button.
      ===================================================================== -->
 <h2 id="internship" style="margin: 2px 0px -15px;">Internship</h2>
 
@@ -11,19 +13,26 @@
 {% for job in site.data.internships.main %}
 
 <li>
-  <div class="title">{{ job.role }}</div>
-  <div class="author">{{ job.location }}</div>
-  <div class="periodical"><em>{{ job.period }}</em></div>
-  <p>{{ job.description }}</p>
-  {% if job.project %}
-  <div class="links">
-    {% if job.project_link %}
-    <a href="{{ job.project_link }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project: {{ job.project }}</a>
-    {% else %}
-    <strong>Project:</strong> {{ job.project }}
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if job.image %}
+    <img src="{{ job.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
     {% endif %}
   </div>
-  {% endif %}
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <strong>{{ job.role }}</strong>
+    <br>
+    {{ job.period }}
+    <br>
+    <em>{{ job.city }}</em>, {{ job.country }}
+    <br>
+    <strong>Topics:</strong> {{ job.topics }}
+    {% if job.project %}
+    <br>
+    <strong>Project:</strong> {% if job.project_link %}<a href="{{ job.project_link }}">{{ job.project }}</a>{% else %}{{ job.project }}{% endif %}
+    {% endif %}
+  </div>
+</div>
 </li>
 <br>
 

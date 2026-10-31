@@ -20,14 +20,18 @@ and hosted via GitHub Pages.
 ├── _layouts/
 │   └── homepage.html        # page shell (header, icons, footer) — from theme
 ├── _sass/, assets/          # theme styles, fonts, scripts — from theme
-└── assets/files/            # CV PDF
+├── assets/files/            # CV PDF
+├── assets/img/publications/ # paper teaser images
+└── assets/img/internships/  # company logos
 ```
 
 ## Updating content
 
-- **New publication:** add an entry to the top of `_data/publications.yml`
+- **New publication:** add an entry (and a teaser image under
+  `assets/img/publications/`) to the top of `_data/publications.yml`
   (a blank template is commented at the top of that file).
-- **New internship:** add an entry to the top of `_data/internships.yml`
+- **New internship:** add an entry (and a logo under
+  `assets/img/internships/`) to the top of `_data/internships.yml`
   (same pattern).
 - **Everything else** (About Me, News, Education, Honor and Award, Work
   Experience, Academic Service, Teaching, Interest): edit the
