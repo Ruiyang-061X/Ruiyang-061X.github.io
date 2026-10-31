@@ -22,7 +22,7 @@
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="{{ pub.page | default: pub.pdf }}">{{ pub.title }}</a></div>
+    <div class="title"><a href="{{ pub.pdf }}">{{ pub.title }}</a></div>
     <div class="author">{{ pub.authors }}</div>
     <div class="periodical"><em>{{ pub.conference_short }}</em></div>
     <div class="links">

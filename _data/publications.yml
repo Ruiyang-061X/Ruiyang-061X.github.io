@@ -15,7 +15,7 @@
 #   page             - link to a dedicated project page (optional)
 #   blog             - link to a blog post about the paper (optional)
 #
-# The title links to `page` if present, otherwise `pdf`.
+# The title always links to `pdf`.
 #
 # NOTE: BibTeX buttons and the red "status" tag (e.g. "Oral", "Early
 # Accept") used by the upstream theme are intentionally not rendered,
@@ -61,6 +61,7 @@ main:
     authors: <strong>Ruiyang Zhang</strong>, <a href="https://huzhangcs.github.io/">Hu Zhang</a>, <a href="https://haofei.vip/">Fei Hao</a>, <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
     conference_short: "EMNLP, 2026"
     image: ./assets/img/publications/uncertainty-o.png
+    pdf: https://arxiv.org/abs/2506.07575
     page: https://uncertainty-o.github.io/
     code: https://github.com/Ruiyang-061X/Uncertainty-o
 
