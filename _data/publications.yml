@@ -29,9 +29,14 @@
 
 main:
 
+  - title: "Marathoner: Ultra-Long-Horizon Autonomous Intelligence"
+    authors: <strong>Ruiyang Zhang</strong>, Jinpeng Ou, Yifan Xie, Jingang Zhou, Lirui Pan, <a href="https://landyguo.github.io/">Qingpei Guo</a>, <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
+    conference_short: "Preprint, 2026"
+    pdf: https://arxiv.org/abs/2609.34378
+
   - title: "VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning"
     authors: <strong>Ruiyang Zhang</strong>, Qianguo Sun, Chao Song, <a href="https://yiyanqi.github.io/">Yiyan Qi</a>, <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
-    conference_short: "Preprint, 2026"
+    conference_short: "NeurIPS, 2026"
     pdf: https://arxiv.org/abs/2603.02795
     code: https://github.com/Ruiyang-061X/VSearcher
 
@@ -43,7 +48,8 @@ main:
 
   - title: "Uncertainty-o: One Model-agnostic Framework for Unveiling Epistemic Uncertainty in Large Multimodal Models"
     authors: <strong>Ruiyang Zhang</strong>, <a href="https://huzhangcs.github.io/">Hu Zhang</a>, <a href="https://haofei.vip/">Fei Hao</a>, <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
-    conference_short: "Preprint, 2025"
+    conference_short: "EMNLP, 2026"
+    pdf: https://arxiv.org/abs/2506.07575
     page: https://uncertainty-o.github.io/
     code: https://github.com/Ruiyang-061X/Uncertainty-o
 

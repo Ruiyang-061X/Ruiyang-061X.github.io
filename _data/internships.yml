@@ -25,8 +25,15 @@
 
 main:
 
+  - role: "Research Intern @ Ant Group, Ling Team"
+    period: "2026.6 - Now"
+    location: "Beijing, China"
+    description: Exploring and developing a general pipeline for constructing ultra-long-horizon ability.
+    project: "Marathoner"
+    project_link: https://arxiv.org/abs/2609.34378
+
   - role: "Research Intern @ IDEA"
-    period: "2025.10 - Now"
+    period: "2025.10 - 2026.3"
     location: "Shenzhen, China"
     description: Developing a long-horizon multimodal search agent via reinforcement learning (RL).
     project: "VSearcher"

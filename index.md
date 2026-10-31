@@ -8,7 +8,7 @@ layout: homepage
      ===================================================================== -->
 ## About Me
 
-I am a second-year Ph.D. student at [University of Macau](https://www.um.edu.mo/), working with [Prof. Zhedong Zheng](https://www.zdzheng.xyz/). Previously, I obtained a bachelor's degree in computer science from [Fudan University](https://www.fudan.edu.cn/main.htm) in 2021.
+I am a third-year Ph.D. student at [University of Macau](https://www.um.edu.mo/), working with [Prof. Zhedong Zheng](https://www.zdzheng.xyz/). Previously, I obtained a bachelor's degree in computer science from [Fudan University](https://www.fudan.edu.cn/main.htm) in 2021.
 
 I am interested in computer vision and related topics. I believe the ultimate goal of computer vision is to make machines see like humans. Currently, my research focuses on enhancing the **reasoning** and **tool-use capabilities** of **multimodal agents** through reinforcement learning.
 
@@ -18,7 +18,10 @@ I am interested in computer vision and related topics. I believe the ultimate go
      ===================================================================== -->
 ## News
 
-- **[Mar. 2026]** Check out our latest work: [VSearcher](https://arxiv.org/abs/2603.02795), training a multi-turn, tool-using multimodal search agent in real-world web environments via reinforcement learning!
+- **[Oct. 2026]** Check out our latest work: [Marathoner](https://arxiv.org/abs/2609.34378), which provides a comprehensive recipe for building ultra-long-horizon ability into a vanilla base model!
+- **[Sep. 2026]** Our work [VSearcher](https://arxiv.org/abs/2603.02795) is accepted by NeurIPS 2026!
+- **[Aug. 2026]** Our work [Uncertainty-o](https://arxiv.org/abs/2506.07575) is accepted by EMNLP 2026!
+- **[Mar. 2026]** Check out our work: [VSearcher](https://arxiv.org/abs/2603.02795), training a multi-turn, tool-using multimodal search agent in real-world web environments via reinforcement learning!
 - **[Jan. 2026]** Our work [SketchThinker-R1](https://arxiv.org/abs/2601.02825) is accepted by ICLR 2026!
 - **[Jan. 2026]** Check out our work: [SketchThinker-R1](https://arxiv.org/abs/2601.02825), incentivizing sketch-style reasoning in large multimodal models to improve reasoning efficiency!
 - **[Jun. 2025]** Our work [UA3D](https://arxiv.org/abs/2408.00619) is accepted by ICCV 2025!
