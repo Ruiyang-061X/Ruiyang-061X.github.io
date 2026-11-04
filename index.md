@@ -12,6 +12,8 @@ I am a third-year Ph.D. student at [University of Macau](https://www.um.edu.mo/)
 
 I am interested in computer vision and related topics. I believe the ultimate goal of computer vision is to make machines see like humans. Currently, my research focuses on enhancing the **reasoning** and **tool-use capabilities** of **multimodal agents** through reinforcement learning.
 
+I am insterested in building general agent intelligence, specifically, transforming base model into agent that can leverage harness and tools to solve complex real-world tasks. Currently, my research focus on enhancing foundamental capabilities, such as ultra-long-horizon execution, tool-use capability, and efficient reasoning of agents through reinforcement learning.
+
 <!-- =====================================================================
      News
      Add new entries to the top of this list (newest first).
