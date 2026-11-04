@@ -10,9 +10,7 @@ layout: homepage
 
 I am a third-year Ph.D. student at [University of Macau](https://www.um.edu.mo/), working with [Prof. Zhedong Zheng](https://www.zdzheng.xyz/). Previously, I obtained a bachelor's degree in computer science from [Fudan University](https://www.fudan.edu.cn/main.htm) in 2021.
 
-I am interested in computer vision and related topics. I believe the ultimate goal of computer vision is to make machines see like humans. Currently, my research focuses on enhancing the **reasoning** and **tool-use capabilities** of **multimodal agents** through reinforcement learning.
-
-I am insterested in building general agent intelligence, specifically, transforming base model into agent that can leverage harness and tools to solve complex real-world tasks. Currently, my research focus on enhancing foundamental capabilities, such as ultra-long-horizon execution, tool-use capability, and efficient reasoning of agents through reinforcement learning.
+I am interested in building **general agent intelligence**, specifically, transforming base model into agent that can leverage harness and tools to solve complex real-world tasks. Currently, my research focus on enhancing **ultra-long-horizon execution ability**, **tool-use capability**, and **efficient reasoning** of agent through reinforcement learning.
 
 <!-- =====================================================================
      News

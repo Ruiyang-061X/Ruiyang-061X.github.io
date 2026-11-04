@@ -45,7 +45,7 @@ main:
     country: "China"
     image: ./assets/img/internships/idea-logo.png
     topics: Developing long-horizon multimodal search agent via reinforcement learning (RL)
-    project: "VSearcher"
+    project: "VSearcher (NeurIPS 2026)"
     project_link: https://arxiv.org/abs/2603.02795
 
   - role: "Research Intern @ Shanghai AI Lab"
@@ -54,5 +54,5 @@ main:
     country: "China"
     image: ./assets/img/internships/shanghaiailab-logo.png
     topics: Leveraging RL to incentivize sketch-style reasoning in large multimodal models
-    project: "SketchThinker-R1"
+    project: "SketchThinker-R1 (ICLR 2026)"
     project_link: https://arxiv.org/abs/2601.02825
