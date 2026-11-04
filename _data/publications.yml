@@ -78,7 +78,7 @@ main:
     conference_short: "ICCV, 2025"
     image: ./assets/img/publications/ua3d.png
     pdf: https://arxiv.org/abs/2408.00619
-    code: https://github.com/Ruiyang-061X/UL3D
+    code: https://github.com/Ruiyang-061X/UA3D
 
   - title: "Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene"
     authors: <strong>Ruiyang Zhang</strong>, <a href="https://huzhangcs.github.io/">Hu Zhang</a>, Hang Yu, <a href="https://www.zdzheng.xyz/">Zhedong Zheng</a>
